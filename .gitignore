@@ -4,6 +4,10 @@
 *.pyc
 *.swp
 *.env
+.firebaserc
+firebase.json
+.firebase
+lib/firebase_options.dart
 .DS_Store
 .atom/
 .buildlog/
