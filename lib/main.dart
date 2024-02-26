@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:logger/logger.dart';
 
 void main() async {
   await dotenv.load();
@@ -21,7 +22,12 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Promptior'),
         ),
-        body: const Text('Promptior'),
+        body: GestureDetector(
+          onTap: () {
+            Logger().i('Test Promptior');
+          },
+          child: const Text('Promptior'),
+        ),
       ),
     );
   }
