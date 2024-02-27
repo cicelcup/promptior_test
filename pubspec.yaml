@@ -18,6 +18,8 @@ dependencies:
   firebase_core: 2.25.4
   firebase_database: 10.4.6
   firebase_auth: 4.17.4
+  #State Management
+  provider: 6.1.1
 
   flutter:
     sdk: flutter
@@ -31,4 +33,4 @@ flutter:
   uses-material-design: true
 
   assets:
-    - .env
+    - env
